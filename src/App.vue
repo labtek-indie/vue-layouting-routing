@@ -6,7 +6,6 @@
               <v-list-tile
                 v-for="item in menuItems"
                 :key="item.title"
-                router
                 :to="item.link"
                 >
                   <v-list-tile-action>
@@ -18,7 +17,7 @@
       </v-navigation-drawer>
 
       <!-- THIS IS THE TOOLBAR STRUCTURE -->
-      <v-toolbar >
+      <v-toolbar>
           <!-- responsive drawer -->
           <v-toolbar-side-icon
             @click.native="sideNav = !sideNav"
@@ -39,7 +38,6 @@
                 flat
                 v-for="item in menuItems"
                 :key="item.title"
-                router
                 :to="item.link"
                 >
                   <v-icon left>{{ item.icon}}</v-icon>

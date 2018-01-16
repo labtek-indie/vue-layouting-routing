@@ -5,6 +5,7 @@ import Vue from 'vue'
 import {
   Vuetify,
   VApp,
+  VCarousel,
   VNavigationDrawer,
   VFooter,
   VList,
@@ -22,6 +23,7 @@ import router from './router'
 Vue.use(Vuetify, {
   components: {
     VApp,
+    VCarousel,
     VNavigationDrawer,
     VFooter,
     VList,
