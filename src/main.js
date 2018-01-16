@@ -30,6 +30,12 @@ Vue.use(Vuetify, {
     VGrid,
     VToolbar,
     transitions
+  },
+  theme: {
+    primary: '#009688',
+    accent: '#FFC107',
+    secondary: '#00796B',
+    info: '#B2DFDB'
   }
 })
 
